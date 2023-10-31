@@ -1,0 +1,129 @@
+:root{
+    --color-primario: #FF5331;
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    padding:0px 30px 0px 30px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 40px;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    gap: 7px;
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logoFitmeal{
+    width: 20px;
+    height: 25px;
+    align-items: center;
+}
+ul{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: 600;
+    gap: 16px;
+    padding: 16px;
+}
+
+.navElements{
+    background-color: transparent;
+    padding: 8px;
+    gap: 8px;
+    border: none;
+}
+.Sign{
+    display: flex;
+    gap: 10px;
+   
+}
+
+button{
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: var(--color-primario);
+}
+
+.SignIn{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    border-color: var(--color-primario); 
+    color: var(--color-primario) ;
+}
+
+.SignUp{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:var(--color-primario);
+    border-color: var(--color-primario); 
+    color: white; 
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+}
+#title{
+    font-size: 60px;
+}
+
+.buscador{
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(115, 115, 115, 0.5);
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.buscar{
+    padding: 15px;
+    border: none;
+    box-shadow: var(--color-primario);
+    
+
+}
+.botonDeBusqueda{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:var(--color-primario);
+    border-color: var(--color-primario); 
+    color: white; 
+    width: 35%;
+}
+
+.seccionUno{
+    /* width: 1000px;
+    height: 2000px; */
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorSeccionUno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 350px 400px;
+    gap: 24px; 
+    background-image:url(repartidor-comida-cajas-comida.jpg);
+    background-size: cover;
+    background-position: center;
+}
